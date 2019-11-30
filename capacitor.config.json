@@ -1,0 +1,21 @@
+{
+  "appId": "com.example.appname",
+  "appName": "appname",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 100,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "showSpinner": true
+    }
+  }
+}
