@@ -37,6 +37,31 @@ npx cap open [ios/android/electron]
 ```
 
 ##### Integration
-* React JS
-* Ionic 4
-* Capacitor
+- [x] React JS
+- [x] Ionic 4
+- [x] Capacitor
+
+
+
+#### Change App's Name
+##### edit
+###### /public/index.html 
+````
+<title>App Name</title>
+````
+###### /src/App/Components/Toolbar.js
+````
+<IonTitle>AppName</IonTitle>
+````
+###### /capacitor.config.json
+```
+  "appId": "com.example.appname",
+  "appName": "appname",
+```
+###### /package.json   and   /ionic.config.json
+```
+"name": "appname",
+```
+
+
+
