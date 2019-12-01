@@ -7,18 +7,32 @@
 ###### Use the commands below to build a Native App using Capacitor's advanced technology.
 
 
+```
+git clone https://github.com/migtam628/create-aio.git
+cd create-aio
+npm i
+```
 
-##### 1st Time
+##### Browser
+```
+npm start // web browser
+```
+
+
+
+##### iOS or Android
+###### 1st time
+```
+ionic build 
+npx cap add [ios/android]
+npx cap open [ios/android]
+```
+
+###### afterwards
+
 ```
 ionic build
-npx cap add [ios/android/electron]
-npx cap sync
-npx cap open [ios/android/electron]
-```
-##### afterwards
-```
-ionic build
-npx cap sync
+npx cap copy
 npx cap open [ios/android/electron]
 ```
 
